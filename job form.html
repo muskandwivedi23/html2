@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="p.css">
+    <style>
+    .perinfo{
+            border:3px solid blue;
+            margin:2px;
+            padding:2px;
+            color: black;
+            background-color: rgb(218, 235, 243);
+            width:fit-content;
+            margin-bottom: 20px;
+            border-radius: 20px;
+            text-align: left;
+            align-items: center;
+        }
+        h3{
+            text-align: center;
+        }
+        .avinfo{
+            border:3px solid blue;
+            margin:2px;
+            padding:2px;
+            color: black;
+            background-color: rgb(218, 235, 243);
+            width:fit-content;
+            margin-bottom: 20px;
+            border-radius: 20px;
+            text-align: left;
+            align-items: center;
+        }
+        h3{
+            text-align: center;
+        }
+        .jobinfo{
+              border:3px solid blue;
+            margin:2px;
+            padding:2px;
+            color: black;
+            background-color: rgb(218, 235, 243);
+            width:fit-content;
+            margin-bottom: 20px;
+            border-radius: 20px;
+            text-align: left;
+            align-items: center;
+        }
+        h3{
+            text-align: center;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h1>Job application form</h1>
+    <div class="perinfo">
+        <h3>personal information</h3>
+        <label>first name</label><br>
+        <input type="text" name="name"><br>
+        <label>last name</label><br>
+        <input type="text" name="name"><br>
+        <label>number</label><br>
+        <input type="number" name="number"><br>
+        <label>email</label><br>
+        <input type="email" name="email"><br><br>
+    </div>
+    <div class="jobinfo">
+    <h1>postion</h1>
+    <label for="position">position:</label>
+    <select id="select" name="select" required>
+    <option value="">--Select--</option>
+    <option  value="hr">hr </option>
+    <option  value="manager">manager</option>
+    <option  value="data anaylst">data analyst </option>
+    <option  value="technician">technician</option><br>
+     </select><br>
+
+    <label>year of experience</label><br>
+        <input type="number" name="number"><br>
+        <br>
+    
+   
+
+
+    </div>
+
+    <div class="avinfo">
+        <h3>availability</h3>
+        <label>Availability Start Date</label><br>
+        <input type="date" name="date"><br>
+        <br>
+        <label>Willing to relocate</label>
+        <br>
+        <input type="radio" value="yes"name="yes" id="yes">yes
+        <br>
+         <input type="radio" value="no"name="no" id="yes">no
+    </div>
+    </header>
+</body>
+</html>
